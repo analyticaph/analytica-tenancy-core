@@ -36,7 +36,7 @@ Add the repository to your app's `composer.json`:
 ### 2. Require the package
 
 ```bash
-composer composer require analytica/tenancy-core:dev-main
+composer require analytica/tenancy-core
 
 ```
 
