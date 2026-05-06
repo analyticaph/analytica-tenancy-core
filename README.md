@@ -36,7 +36,8 @@ Add the repository to your app's `composer.json`:
 ### 2. Require the package
 
 ```bash
-composer require analytica/tenancy-core
+composer composer require analytica/tenancy-core:dev-main
+
 ```
 
 Laravel will discover `Analytica\TenancyCore\TenancyCoreServiceProvider` automatically.
