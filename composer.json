@@ -14,10 +14,25 @@
     "laravel/framework": "^12.0",
     "spatie/laravel-multitenancy": "^4.0"
   },
+  "require-dev": {
+    "orchestra/testbench": "^10.0",
+    "phpunit/phpunit": "^11.5"
+  },
   "autoload": {
     "psr-4": {
       "Analytica\\TenancyCore\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Analytica\\TenancyCore\\Tests\\": "tests/"
     }
+  },
+  "scripts": {
+    "test": "@php vendor/bin/phpunit"
   },
   "extra": {
     "laravel": {
